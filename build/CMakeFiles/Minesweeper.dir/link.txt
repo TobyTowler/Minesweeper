@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/Minesweeper.dir/src/main.c.o CMakeFiles/Minesweeper.dir/src/table.c.o -o Minesweeper 
+/usr/bin/cc CMakeFiles/Minesweeper.dir/src/main.c.o CMakeFiles/Minesweeper.dir/src/game.c.o -o Minesweeper 

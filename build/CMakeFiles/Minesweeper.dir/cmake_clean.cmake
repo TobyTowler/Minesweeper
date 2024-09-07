@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Minesweeper.dir/src/game.c.o"
+  "CMakeFiles/Minesweeper.dir/src/game.c.o.d"
   "CMakeFiles/Minesweeper.dir/src/main.c.o"
   "CMakeFiles/Minesweeper.dir/src/main.c.o.d"
-  "CMakeFiles/Minesweeper.dir/src/table.c.o"
-  "CMakeFiles/Minesweeper.dir/src/table.c.o.d"
   "Minesweeper"
   "Minesweeper.pdb"
 )

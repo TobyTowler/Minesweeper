@@ -83,30 +83,30 @@ CMakeFiles/Minesweeper.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Minesweeper.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Toby/Programming/C/Minesweeper/src/main.c -o CMakeFiles/Minesweeper.dir/src/main.c.s
 
-CMakeFiles/Minesweeper.dir/src/table.c.o: CMakeFiles/Minesweeper.dir/flags.make
-CMakeFiles/Minesweeper.dir/src/table.c.o: /home/Toby/Programming/C/Minesweeper/src/table.c
-CMakeFiles/Minesweeper.dir/src/table.c.o: CMakeFiles/Minesweeper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Toby/Programming/C/Minesweeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Minesweeper.dir/src/table.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Minesweeper.dir/src/table.c.o -MF CMakeFiles/Minesweeper.dir/src/table.c.o.d -o CMakeFiles/Minesweeper.dir/src/table.c.o -c /home/Toby/Programming/C/Minesweeper/src/table.c
+CMakeFiles/Minesweeper.dir/src/game.c.o: CMakeFiles/Minesweeper.dir/flags.make
+CMakeFiles/Minesweeper.dir/src/game.c.o: /home/Toby/Programming/C/Minesweeper/src/game.c
+CMakeFiles/Minesweeper.dir/src/game.c.o: CMakeFiles/Minesweeper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Toby/Programming/C/Minesweeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Minesweeper.dir/src/game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Minesweeper.dir/src/game.c.o -MF CMakeFiles/Minesweeper.dir/src/game.c.o.d -o CMakeFiles/Minesweeper.dir/src/game.c.o -c /home/Toby/Programming/C/Minesweeper/src/game.c
 
-CMakeFiles/Minesweeper.dir/src/table.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Minesweeper.dir/src/table.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Toby/Programming/C/Minesweeper/src/table.c > CMakeFiles/Minesweeper.dir/src/table.c.i
+CMakeFiles/Minesweeper.dir/src/game.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Minesweeper.dir/src/game.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Toby/Programming/C/Minesweeper/src/game.c > CMakeFiles/Minesweeper.dir/src/game.c.i
 
-CMakeFiles/Minesweeper.dir/src/table.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Minesweeper.dir/src/table.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Toby/Programming/C/Minesweeper/src/table.c -o CMakeFiles/Minesweeper.dir/src/table.c.s
+CMakeFiles/Minesweeper.dir/src/game.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Minesweeper.dir/src/game.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Toby/Programming/C/Minesweeper/src/game.c -o CMakeFiles/Minesweeper.dir/src/game.c.s
 
 # Object files for target Minesweeper
 Minesweeper_OBJECTS = \
 "CMakeFiles/Minesweeper.dir/src/main.c.o" \
-"CMakeFiles/Minesweeper.dir/src/table.c.o"
+"CMakeFiles/Minesweeper.dir/src/game.c.o"
 
 # External object files for target Minesweeper
 Minesweeper_EXTERNAL_OBJECTS =
 
 Minesweeper: CMakeFiles/Minesweeper.dir/src/main.c.o
-Minesweeper: CMakeFiles/Minesweeper.dir/src/table.c.o
+Minesweeper: CMakeFiles/Minesweeper.dir/src/game.c.o
 Minesweeper: CMakeFiles/Minesweeper.dir/build.make
 Minesweeper: CMakeFiles/Minesweeper.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Toby/Programming/C/Minesweeper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Minesweeper"

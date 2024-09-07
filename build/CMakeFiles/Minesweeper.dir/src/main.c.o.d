@@ -1,7 +1,8 @@
 CMakeFiles/Minesweeper.dir/src/main.c.o: \
  /home/Toby/Programming/C/Minesweeper/src/main.c \
  /usr/include/stdc-predef.h \
- /home/Toby/Programming/C/Minesweeper/src/table.h /usr/include/stdio.h \
+ /home/Toby/Programming/C/Minesweeper/src/game.h \
+ /home/Toby/Programming/C/Minesweeper/src/node.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \

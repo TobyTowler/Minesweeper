@@ -129,6 +129,30 @@ Minesweeper/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minesweeper.dir/build.make CMakeFiles/Minesweeper.dir/build
 .PHONY : Minesweeper/fast
 
+src/game.o: src/game.c.o
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minesweeper.dir/build.make CMakeFiles/Minesweeper.dir/src/game.c.o
+.PHONY : src/game.c.o
+
+src/game.i: src/game.c.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minesweeper.dir/build.make CMakeFiles/Minesweeper.dir/src/game.c.i
+.PHONY : src/game.c.i
+
+src/game.s: src/game.c.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minesweeper.dir/build.make CMakeFiles/Minesweeper.dir/src/game.c.s
+.PHONY : src/game.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -153,30 +177,6 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minesweeper.dir/build.make CMakeFiles/Minesweeper.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/table.o: src/table.c.o
-.PHONY : src/table.o
-
-# target to build an object file
-src/table.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minesweeper.dir/build.make CMakeFiles/Minesweeper.dir/src/table.c.o
-.PHONY : src/table.c.o
-
-src/table.i: src/table.c.i
-.PHONY : src/table.i
-
-# target to preprocess a source file
-src/table.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minesweeper.dir/build.make CMakeFiles/Minesweeper.dir/src/table.c.i
-.PHONY : src/table.c.i
-
-src/table.s: src/table.c.s
-.PHONY : src/table.s
-
-# target to generate assembly for a file
-src/table.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Minesweeper.dir/build.make CMakeFiles/Minesweeper.dir/src/table.c.s
-.PHONY : src/table.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Minesweeper"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/table.o"
-	@echo "... src/table.i"
-	@echo "... src/table.s"
 .PHONY : help
 
 
