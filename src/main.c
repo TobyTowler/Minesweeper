@@ -1,17 +1,19 @@
-#include "table.h"
+#include "game.h"
+// #include "node.h"
 #include <stdio.h>
 int main(void) {
-    table table;
-    table.numberOfMines = 7;
-    fillTable(table);
-
-    char str[3];
+    node arr[5][5];
+    int numberOfMines;
+    int numberDiscoveredOfMines;
+    fillTable(arr);
 
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
-            str[j] = table.arr[i][j];
+            printf("%d", arr[i][j].adjacentMines);
+            printf("  ");
+            if (j == 4)
+                printf("\n");
         }
-        printf("%s", str);
     }
 
     return 0;

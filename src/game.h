@@ -1,11 +1,8 @@
 #ifndef __TABLE__
 #define __TABLE__
 
-typedef struct node {
-    int adjacentMines;
-    int visible;
+#include "node.h"
 
-} node;
 typedef struct table {
     node arr[5][5];
     int numberOfMines;
@@ -14,5 +11,7 @@ typedef struct table {
 
 // table initialiseTable();
 
-void fillTable(table table);
+void fillTable(node table[5][5]);
+void fillMines(node table[5][5]);
+void fillSpaces(node table[5][5]);
 #endif
