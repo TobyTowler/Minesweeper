@@ -1,5 +1,8 @@
 # Minesweeper
 
-## Node
-- number of adjacent mines
--
+Terminal minesweeper game.
+
+# KEY
+
+░ Marked tile
+█ blank tile

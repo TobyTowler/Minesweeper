@@ -5,7 +5,6 @@
 
 void fillMines(node table[5][5]) {
     srand(time(NULL));
-
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
             int x = rand() % 7;
