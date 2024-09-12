@@ -14,4 +14,6 @@ typedef struct table {
 void fillTable(node table[5][5]);
 void fillMines(node table[5][5]);
 void fillSpaces(node table[5][5]);
+void printTable(node table[5][5]);
+void calcSurroundingMines(node table[5][5]);
 #endif

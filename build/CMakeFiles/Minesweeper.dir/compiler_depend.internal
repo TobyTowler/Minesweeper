@@ -3,6 +3,7 @@
 
 CMakeFiles/Minesweeper.dir/src/game.c.o
  /home/Toby/Programming/C/Minesweeper/src/game.c
+ /home/Toby/Programming/C/Minesweeper/src/game.h
  /home/Toby/Programming/C/Minesweeper/src/node.h
  /usr/include/alloca.h
  /usr/include/bits/atomic_wide_counter.h

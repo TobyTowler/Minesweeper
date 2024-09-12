@@ -1,4 +1,4 @@
-#include "node.h"
+#include "game.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -30,4 +30,22 @@ void fillTable(node table[5][5]) {
 
     fillMines(table);
     fillSpaces(table);
+}
+
+void printTable(node table[5][5]) {
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 5; j++) {
+            if (table[i][j].adjacentMines == -1) {
+                // printf("%d", arr[i][j].adjacentMines);
+                printf("░");
+            } else
+                printf("█");
+            if (j == 4)
+                printf("\n");
+        }
+    }
+}
+
+void calcSurroundingMines(node table[5][5]) {
+    // edges
 }
