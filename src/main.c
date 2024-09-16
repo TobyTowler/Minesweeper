@@ -8,5 +8,10 @@ int main(void) {
     fillTable(arr);
 
     printTable(arr);
+
+    calcSurroundingMines(arr);
+
+    printf("\n");
+    printTableNumbers(arr);
     return 0;
 }

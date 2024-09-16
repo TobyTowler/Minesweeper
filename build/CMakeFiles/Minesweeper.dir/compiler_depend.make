@@ -61,6 +61,7 @@ CMakeFiles/Minesweeper.dir/src/game.c.o: /home/Toby/Programming/C/Minesweeper/sr
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/types.h \
+  /usr/include/threads.h \
   /usr/include/time.h \
   /usr/lib/gcc/x86_64-redhat-linux/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-redhat-linux/13/include/stddef.h
@@ -101,6 +102,8 @@ CMakeFiles/Minesweeper.dir/src/main.c.o: /home/Toby/Programming/C/Minesweeper/sr
 /usr/lib/gcc/x86_64-redhat-linux/13/include/stdarg.h:
 
 /usr/include/time.h:
+
+/usr/include/threads.h:
 
 /usr/include/bits/types.h:
 
